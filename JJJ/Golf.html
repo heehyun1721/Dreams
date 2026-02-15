@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>GOLF</title>
+    <link rel="stylesheet" href="CSS/Golf.css">
+</head>
+<body>
+    <div class="title">
+        <h1>PICK YOUR GOLF CLUB</h1>
+    </div>
+
+    <div class="slider-section">
+
+        <div class="arrow left" onclick="moveSlide(-1)"></div>
+    
+        <div class="slider-viewport">
+            <div class="slider" id="slider">
+            
+                <div class="card-box">
+                        <div class="img-gradient"></div>
+                        <img src="IMG/Titleist GT 2.jpg" alt="">
+                        <button class="btn-hover color-1" 
+                                onclick="selectGolf(this, 'GT 2', 0.1)">select</button>
+                        <div class="text">
+                            <p>Titleist GT 2</p>
+                        </div>
+                </div>
+
+                <div class="card-box">
+                        <div class="img-gradient"></div>
+                        <img src="IMG/Titleist TSR 2.jpg" alt="">
+                        <button class="btn-hover color-1" 
+                                onclick="selectGolf(this, 'TSR 2', 0.1)">select</button>
+                        <div class="text">
+                            <p>Titleist TSR 2</p>
+                        </div>
+                </div>
+
+                <div class="card-box">
+                  <div class="img-gradient"></div>
+                  <img src="IMG/Taylormade Qi4D.jpg" alt="">
+                  <button class="btn-hover color-1" 
+                          onclick="selectGolf(this, 'Qi4D', 0.1)">select</button>
+                  <div class="text">
+                      <p>Taylormade Qi4D</p>
+                  </div>
+                </div>
+
+                <div class="card-box">
+                  <div class="img-gradient"></div>
+                  <img src="IMG/Taylormade Qi35.jpg" alt="">
+                  <button class="btn-hover color-1" 
+                          onclick="selectGolf(this, 'Qi35', 0.1)">select</button>
+                  <div class="text">
+                      <p>Taylormade Qi35</p>
+                  </div>
+                </div>
+
+                <div class="card-box">
+                  <div class="img-gradient"></div>
+                  <img src="IMG/Callaway Quantum.jpg" alt="">
+                  <button class="btn-hover color-1" 
+                          onclick="selectGolf(this, 'Quantum', 0.1)">select</button>
+                  <div class="text">
+                      <p>Callaway Quantum</p>
+                  </div>
+                </div>
+
+                <div class="card-box">
+                  <div class="img-gradient"></div>
+                  <img src="IMG/Callaway Elite.jpg" alt="">
+                  <button class="btn-hover color-1" 
+                          onclick="selectGolf(this, 'Elite', 0.1)">select</button>
+                  <div class="text">
+                      <p>Callaway Elite</p>
+                  </div>
+                </div>
+
+                <div class="card-box">
+                  <div class="img-gradient"></div>
+                  <img src="IMG/Ping G440.jpg" alt="">
+                  <button class="btn-hover color-1" 
+                          onclick="selectGolf(this, 'G440', 0.1)">select</button>
+                  <div class="text">
+                      <p>Ping G440</p>
+                  </div>
+                </div>
+
+                <div class="card-box">
+                  <div class="img-gradient"></div>
+                  <img src="IMG/Cobra King.jpg" alt="">
+                  <button class="btn-hover color-1" 
+                          onclick="selectGolf(this, 'King', 0.1)">select</button>
+                  <div class="text">
+                      <p>Cobra King</p>
+                  </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    
+        <div class="arrow right" onclick="moveSlide(1)"></div>
+    
+    </div>
+
+    <script src="JS/Golf.js"></script>
+</html>

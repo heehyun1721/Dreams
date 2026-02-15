@@ -1,0 +1,205 @@
+body {
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("../IMG/background.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  .title h1 {
+    margin-top: 60px;
+    margin-bottom: 0px;
+    font-size:55px;
+    text-align:center; 
+    line-height:1.5em; 
+    font-family:"Playfair Display", serif; 
+    font-weight:500;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    color: #DCDEE6;
+    text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+  }
+  
+  .slider-section {
+    position: relative;
+    width: 100%;
+    margin: 120px 0;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slider-wrapper {
+    position: relative;
+    width: 100%;
+    height: 500px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin: 0 auto;
+  }
+  
+  
+  .slider-viewport {
+    width: 100%;      
+    max-width: 1200px;
+    margin: 0 auto;       
+    position: relative;    
+  }
+  
+  .slider {
+    display: flex;
+    align-items: center;
+    transition: transform 0.6s ease;
+  }
+  
+  .card-box {
+    position: relative;
+    display: inline-block;
+    margin: 0 30px;      
+    opacity: 0.5;
+    transform: scale(1);
+    transition: transform 0.5s ease, opacity 0.5s ease, box-shadow 0.5s ease;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+  }
+  
+  
+  .card-box.active {
+    opacity: 1;
+    transform: scale(1.15);  
+    z-index: 10;
+    box-shadow: 0 40px 60px rgba(0,0,0,0.6);
+  }
+  
+  .card-box img {
+    width: 250px;
+    height: 450px;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 50%;              
+    transform: translateY(-50%); 
+    width: 60px;
+    height: 60px;
+    border-top: 3px solid #DCDEE6;
+    border-right: 3px solid #DCDEE6;
+    cursor: pointer;
+    transition: 0.3s;
+    z-index: 20;         
+  }
+  
+  .arrow.left {
+    left: 50px;
+    transform: translateY(-50%) rotate(-135deg);
+  }
+  
+  .arrow.right {
+    right: 50px;
+    transform: translateY(-50%) rotate(45deg);
+  }
+  
+  .arrow.left:hover {
+    transform: translateY(-50%) rotate(-135deg) scale(1.2);
+  }
+  
+  .arrow.right:hover {
+    transform: translateY(-50%) rotate(45deg) scale(1.2);
+  }
+  
+  .card-box {
+    position: relative;
+    display: inline-block;
+    margin: 0 30px;
+    opacity: 0.5;
+    transform: scale(1);
+    transition: transform 0.5s ease, opacity 0.5s ease, box-shadow 0.5s ease;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.26);
+  }
+  
+  .img-gradient{
+    position: absolute; 
+    border-radius: 20px;
+    left:0; 
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    background: linear-gradient(rgba(0.1,0,0,0.1),rgba(0,0,0,0));
+    z-index: 1;
+  }
+  
+  .card-box.active {
+    opacity: 1;
+    transform: scale(1.15);
+    z-index: 10;
+    box-shadow: 0 40px 60px rgba(0,0,0,0.6);
+  }
+  .text{
+    position: absolute;
+    top:0;
+    margin-left: 5px;
+    padding: 24px;
+    z-index: 2;
+  }
+  
+  .text p{
+    margin-top: 20px;
+    font-size: 17px;
+    color: #DCDEE6;
+    font-weight:800;
+    font-family:"Palatino";
+  }
+  
+  
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .btn-hover {
+      transition: opacity 0.8s ease-in-out;
+      position: absolute;
+      bottom: -50px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 170px;
+      height: 40px;
+      border: none;
+      cursor: pointer; 
+      color: black;
+      font-family: "Century Gothic";
+      font-size: 17px;
+      background-size: 300% 100%;
+  
+      border-radius: 50px;
+      -moz-transition: all .4s ease-in-out;
+      -o-transition: all .4s ease-in-out;
+      -webkit-transition: all .4s ease-in-out;
+      transition: all .4s ease-in-out;
+  }
+  
+  .btn-hover:hover {
+      background-position: 100% 0;
+      -moz-transition: all .4s ease-in-out;
+      -o-transition: all .4s ease-in-out;
+      -webkit-transition: all .4s ease-in-out;
+      transition: all .4s ease-in-out;
+  }
+  
+  .btn-hover:focus {
+      outline: none;
+  }
+  
+  .btn-hover.color-1 {
+    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+  }

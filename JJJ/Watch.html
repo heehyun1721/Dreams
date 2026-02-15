@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>WATCH</title>
+    <link rel="stylesheet" href="CSS/Watch.css">
+</head>
+<body>
+    <div class="title">
+        <h1>PICK YOUR WATCH</h1>
+    </div>
+
+    <div class="slider-section">
+
+        <div class="arrow left" onclick="moveSlide(-1)"></div>
+    
+        <div class="slider-viewport">
+            <div class="slider" id="slider">
+            
+                <div class="card-box">
+                        <div class="img-gradient"></div>
+                        <img src="IMG/Longines Hydroconquest.jpg" alt="">
+                        <button class="btn-hover color-1" 
+                                onclick="selectWatch(this, 'Hydroconquest', 0.1)">select</button>
+                        <div class="text">
+                            <p>LONGINES Hydroconquest</p>
+                        </div>
+                </div>
+
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/Frederique Constant Classics Index Automatic.jpg" alt="">
+                    <button class="btn-hover color-1" 
+                            onclick="selectWatch(this, 'Geneve', 0.1)">select</button>
+                    <div class="text">
+                        <p>Frederique Constant Geneve <br> Classics Index Automatic</p>
+                    </div>
+                </div>
+
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/TAG Heuer Link.jpg" alt="">
+                    <button class="btn-hover color-1" 
+                            onclick="selectWatch(this, 'Link', 0.1)">select</button>
+                    <div class="text">
+                        <p>TAG Heuer Link Date</p>
+                    </div>
+                </div>
+
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/TAG Heuer Carrera Date.jpg" alt="">
+                    <button class="btn-hover color-1" 
+                            onclick="selectWatch(this, 'Carrera', 0.1)">select</button>
+                    <div class="text">
+                        <p>TAG Heuer Carrera Date</p>
+                    </div>
+                </div>
+
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/TAG Heuer Aquaracer.jpg" alt="">
+                    <button class="btn-hover color-1" 
+                            onclick="selectWatch(this, 'Aquaracer', 0.1)">select</button>
+                    <div class="text">
+                        <p>TAG Heuer Aquaracer Professional 300 Date</p>
+                    </div>
+                </div>
+
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/Tudor Black Bay.jpg" alt="">
+                    <button class="btn-hover color-1" 
+                            onclick="selectWatch(this, 'Black Bay 58', 0.1)">select</button>
+                    <div class="text">
+                        <p>TUDOR Black Bay 58</p>
+                    </div>
+                </div>
+
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/Tudor Pelagos 39.jpg" alt="">
+                    <button class="btn-hover color-1" 
+                            onclick="selectWatch(this, 'Pelagos 39', 0.1)">select</button>
+                    <div class="text">
+                        <p>TUDOR Pelagos 39</p>
+                    </div>
+                </div>
+
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/Breitling Navitimer.jpg" alt="">
+                    <button class="btn-hover color-1" 
+                            onclick="selectWatch(this, 'Navitimer', 0.1)">select</button>
+                    <div class="text">
+                        <p>BREITLING Navitimer <br> B01 Chronograph 43</p>
+                    </div>
+                </div>
+
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/Breitling Superocean Heritage.jpg" alt="">
+                    <button class="btn-hover color-1" 
+                            onclick="selectWatch(this, 'Superocean Heritage', 0.1)">select</button>
+                    <div class="text">
+                        <p>BREITLING Superocean Heritage Automatic 42</p>
+                    </div>
+                </div>
+
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/OMEGA Speedmaster Moonwatch.jpg" alt="">
+                    <button class="btn-hover color-1" 
+                            onclick="selectWatch(this, 'Speedmaster', 0.1)">select</button>
+                    <div class="text">
+                        <p>OMEGA Speedmaster Moonwatch Professional</p>
+                    </div>
+                </div>
+
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/OMEGA Seamaster Diver 300M.jpg" alt="">
+                    <button class="btn-hover color-1" 
+                            onclick="selectWatch(this, 'Seamaster', 0.1)">select</button>
+                    <div class="text">
+                        <p>OMEGA Seamaster Diver 300M</p>
+                    </div>
+                </div>
+
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/Hublot Classic Fusion Aerofusion Black Magic.jpg" alt="">
+                    <button class="btn-hover color-1" 
+                            onclick="selectWatch(this, 'Classic Fusion', 0.1)">select</button>
+                    <div class="text">
+                        <p>HUBLOT Classic Fusion Aerofusion Black Magic</p>
+                    </div>
+                </div>
+
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/Hublot Big Bang Integral Grey Ceramic.jpg" alt="">
+                    <button class="btn-hover color-1" 
+                            onclick="selectWatch(this, 'Big Bang', 0.1)">select</button>
+                    <div class="text">
+                        <p>HUBLOT Big Bang <br> Integral Grey Ceramic</p>
+                    </div>
+                </div>
+
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/IWC Portugieser.jpg" alt="">
+                    <button class="btn-hover color-1" 
+                            onclick="selectWatch(this, 'Portugieser', 0.1)">select</button>
+                    <div class="text">
+                        <p>IWC Portugieser Chronograph</p>
+                    </div>
+                </div>
+
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/IWC Ingenieur Automatic 40.avif" alt="">
+                    <button class="btn-hover color-1" 
+                            onclick="selectWatch(this, 'Ingenieur', 0.1)">select</button>
+                    <div class="text">
+                        <p>IWC Ingenieur Automatic 40</p>
+                    </div>
+                </div>
+
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/IWC Portofino Automatic.jpg" alt="">
+                    <button class="btn-hover color-1" 
+                            onclick="selectWatch(this, 'Portofino', 0.1)">select</button>
+                    <div class="text">
+                        <p>IWC Portofino Automatic</p>
+                    </div>
+                </div>
+
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/ROLEX Datejust.jpg" alt="">
+                    <button class="btn-hover color-1" 
+                            onclick="selectWatch(this, 'Datejust', 0.1)">select</button>
+                    <div class="text">
+                        <p>ROLEX Datejust 41</p>
+                    </div>
+                </div>
+
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/ROLEX Datejust 36.jpg" alt="">
+                    <button class="btn-hover color-1" 
+                            onclick="selectWatch(this, 'Datejust', 0.1)">select</button>
+                    <div class="text">
+                        <p>ROLEX Datejust 36</p>
+                    </div>
+                </div>
+
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/ROLEX Day-Date 40.jpg" alt="">
+                    <button class="btn-hover color-1" 
+                            onclick="selectWatch(this, 'Day-Date', 0.1)">select</button>
+                    <div class="text">
+                        <p>ROLEX Day-Date 40</p>
+                    </div>
+                </div>
+
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/ROLEX Day-Date.jpg" alt="">
+                    <button class="btn-hover color-1" 
+                            onclick="selectWatch(this, 'Day-Date', 0.1)">select</button>
+                    <div class="text">
+                        <p>ROLEX Day-Date 40</p>
+                    </div>
+                </div>
+
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/ROLEX Submariner.jpg" alt="">
+                    <button class="btn-hover color-1" 
+                            onclick="selectWatch(this, 'Submariner', 0.1)">select</button>
+                    <div class="text">
+                        <p>ROLEX Submariner Date</p>
+                    </div>
+                </div>
+
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/ROLEX Submariner Date.jpg" alt="">
+                    <button class="btn-hover color-1" 
+                            onclick="selectWatch(this, 'Submariner', 0.1)">select</button>
+                    <div class="text">
+                        <p>ROLEX Submariner Date</p>
+                    </div>
+                </div>
+
+                
+
+            </div>
+        </div>
+    
+        <div class="arrow right" onclick="moveSlide(1)"></div>
+    
+    </div>
+
+    <script src="JS/Watch.js"></script>
+</html>

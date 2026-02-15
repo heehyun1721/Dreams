@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CAR</title>
+    <link rel="stylesheet" href="CSS/Car.css">
+</head>
+<body>
+    <div class="title">
+        <h1>PICK YOUR CAR</h1>
+    </div>
+
+    <div class="slider-section">
+
+        <div class="arrow left" onclick="moveSlide(-1)"></div>
+    
+        <div class="slider-viewport">
+            <div class="slider" id="slider">
+            
+                <div class="card-box">
+                        <div class="img-gradient"></div>
+                        <img src="IMG/BMW M8.jpg" alt="">
+                        <button class="btn-hover color-1" 
+                                onclick="selectCar(this, 'BMW M8', 0.1)">select</button>
+                        <div class="text">
+                            <p>BMW M8 <br>
+                            Competition Coupe</p>
+                        </div>
+                    </div>
+
+                
+
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/Audi rs7.jpg" alt="">
+                    <button class="btn-hover color-1" 
+                            onclick="selectCar(this, 'Audi RS7', 0.1)">select</button>
+                    <div class="text">
+                        <p>Audi RS7
+                        Performance</p>
+                    </div>
+                </div>
+
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/Benz AMG GT63.jpg" alt="">
+                    <button class="btn-hover color-1" 
+                            onclick="selectCar(this, 'AMG GT63', 0.1)">select</button>
+                    <div class="text">
+                        <p>Mercedes-AMG GT 63</p>
+                    </div>
+                </div>
+
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/Porsche 911.jpg" alt="">
+                    
+                    <button class="btn-hover color-1"
+                            onclick="selectCar(this, 'Porsche 911', 0.1)">select</button>
+                
+                    <div class="text">
+                        <p>Porsche 911 Carrera GTS</p>
+                    </div>
+                </div>    
+
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/Maserati Quattroporte.jpg" alt="">
+                    <button class="btn-hover color-1" 
+                            onclick="selectCar(this, 'Quattroporte', 0.1)">select</button>
+                    <div class="text">
+                        <p>Maserati Quattroporte</p>
+                    </div>
+                </div>
+    
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/Aston Martin Vantage.jpg" alt="">
+                    <button class="btn-hover color-1" 
+                            onclick="selectCar(this, 'Vantage', 0.1)">select</button>
+                    <div class="text">
+                        <p>Aston Martin Vantage</p>
+                    </div>
+                </div>
+
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/Bentley Flying Spur.jpg" alt="">
+                    <button class="btn-hover color-1" 
+                            onclick="selectCar(this, 'Flying Spur', 0.1)">select</button>
+                    <div class="text">
+                        <p>Bentley Flying Spur</p>
+                    </div>
+                </div>
+
+                
+
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/Lamborghini Aventador SVJ.jpg" alt="">
+                    <button class="btn-hover color-1" 
+                            onclick="selectCar(this, 'Aventador', 0.1)">select</button>
+                    <div class="text">
+                        <p>Lamborghini Aventador</p>
+                    </div>
+                </div>
+
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/Ferrari F8 Tributo.jpg" alt="">
+                    <button class="btn-hover color-1" 
+                            onclick="selectCar(this, 'F8 Tuributo', 0.1)">select</button>
+                    <div class="text">
+                        <p>Ferrari F8 Tributo</p>
+                    </div>
+                </div>
+
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/Rolls Royce Ghost.jpg" alt="">
+                    <button class="btn-hover color-1" 
+                            onclick="selectCar(this, 'Ghost', 0.1)">select</button>
+                    <div class="text">
+                        <p>Rolls Royce Ghost</p>
+                    </div>
+                </div>
+
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/McLaren 720S Spider.jpg" alt="">
+                    <button class="btn-hover color-1" 
+                            onclick="selectCar(this, '720S Spider', 0.1)">select</button>
+                    <div class="text">
+                        <p>McLaren 720S Spider</p>
+                    </div>
+                </div>
+
+
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/BMW X7.jpg" alt="">
+                    <button class="btn-hover color-1" 
+                            onclick="selectCar(this, 'BMW X7', 0.1)">select</button>
+                    <div class="text">
+                        <p>BMW X7</p>
+                    </div>
+                </div>
+
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/RS Q8.jpg" alt="">
+                    <button class="btn-hover color-1" 
+                            onclick="selectCar(this, 'Audi RS Q8', 0.1)">select</button>
+                    <div class="text">
+                        <p>Audi RS Q8</p>
+                    </div>
+                </div>
+
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/AMG G63.jpg" alt="">
+                    <button class="btn-hover color-1" 
+                            onclick="selectCar(this, 'AMG G63', 0.1)">select</button>
+                    <div class="text">
+                        <p>Mercedes-AMG G63</p>
+                    </div>
+                </div>
+
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/Porsche Cayenne.jpg" alt="">
+                    <button class="btn-hover color-1" 
+                            onclick="selectCar(this, 'Cayenne', 0.1)">select</button>
+                    <div class="text">
+                        <p>Porsche Cayenne</p>
+                    </div>
+                </div>
+
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/Maserati Levante.jpg" alt="">
+                    <button class="btn-hover color-1" 
+                            onclick="selectCar(this, 'Levante', 0.1)">select</button>
+                    <div class="text">
+                        <p>Maserati Levante</p>
+                    </div>
+                </div>
+
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/Aston Martin DBX 707.jpg" alt="">
+                    <button class="btn-hover color-1" 
+                            onclick="selectCar(this, 'DBX 707', 0.1)">select</button>
+                    <div class="text">
+                        <p>Aston Martin DBX 707</p>
+                    </div>
+                </div>
+
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/Bentley Bentayga.jpg" alt="">
+                    <button class="btn-hover color-1" 
+                            onclick="selectCar(this, 'Bentayga', 0.1)">select</button>
+                    <div class="text">
+                        <p>Bentley Bentayga</p>
+                    </div>
+                </div>
+
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/Lamborghini Urus.jpg" alt="">
+                    <button class="btn-hover color-1" 
+                            onclick="selectCar(this, 'Urus', 0.1)">select</button>
+                    <div class="text">
+                        <p>Lamborghini Urus</p>
+                    </div>
+                </div>
+
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/Ferrari Purosangue.jpg" alt="">
+                    <button class="btn-hover color-1" 
+                            onclick="selectCar(this, 'Purosangue', 0.1)">select</button>
+                    <div class="text">
+                        <p>Ferrari Purosangue</p>
+                    </div>
+                </div>
+
+                <div class="card-box">
+                    <div class="img-gradient"></div>
+                    <img src="IMG/Rolls Royce Cullinan.jpg" alt="">
+                    <button class="btn-hover color-1" 
+                            onclick="selectCar(this, 'Cullinan', 0.1)">select</button>
+                    <div class="text">
+                        <p>Rolls Royce Cullinan</p>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    
+        <div class="arrow right" onclick="moveSlide(1)"></div>
+    
+    </div>
+
+    <script src="JS/Car.js"></script>
+</body>
+</html>
